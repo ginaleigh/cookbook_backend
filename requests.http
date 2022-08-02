@@ -1,8 +1,8 @@
 ### RECIPE INDEX
-GET http://localhost:3000/photos.json
+GET http://localhost:3000/recipes.json
 
 ### RECIPE CREATE
-POST http://localhost:3000/photos.json
+POST http://localhost:3000/recipes.json
 Content-Type: application/json
 
 {
@@ -10,10 +10,10 @@ Content-Type: application/json
 }
 
 ### RECIPE SHOW
-GET http://localhost:3000/photos/1.json
+GET http://localhost:3000/recipes/1.json
 
 ### RECIPE UPDATE
-PATCH http://localhost:3000/photos/1.json
+PATCH http://localhost:3000/recipes/1.json
 Content-Type: application/json
 
 {
@@ -21,4 +21,4 @@ Content-Type: application/json
 }
 
 ### RECIPE DESTROY
-DELETE http://localhost:3000/photos/1.json
+DELETE http://localhost:3000/recipes/1.json
