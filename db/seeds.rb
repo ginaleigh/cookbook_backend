@@ -1,0 +1,3 @@
+Recipe.create!(name: "Test1", information: "Test1", ingredients: "Test1", instructions: "Test1", notes: "Test1", preptime: 5, cooktime: 7, category: "Test1", method: "Test1", cuisine: "Test1", nutrition: "Test1", facts: "Test1", keywords: "Test1")
+Recipe.create!(name: "Test2", information: "Test2", ingredients: "Test2", instructions: "Test2", notes: "Test2", preptime: 5, cooktime: 7, category: "Test2", method: "Test2", cuisine: "Test2", nutrition: "Test2", facts: "Test2", keywords: "Test2")
+Recipe.create!(name: "Test3", information: "Test3", ingredients: "Test3", instructions: "Test3", notes: "Test3", preptime: 5, cooktime: 7, category: "Test3", method: "Test3", cuisine: "Test3", nutrition: "Test3", facts: "Test3", keywords: "Test3")
