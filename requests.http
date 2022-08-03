@@ -6,7 +6,19 @@ POST http://localhost:3000/recipes.json
 Content-Type: application/json
 
 {
-
+"name": "Test", 
+"information": "Test", 
+"ingredients": "Test", 
+"instructions": "Test",
+"notes": "Test", 
+"preptime": 5, 
+"cooktime": 7, 
+"category": "Test",
+"method": "Test", 
+"cuisine": "Test", 
+"nutrition": "Test", 
+"facts": "Test", 
+"keywords": "Test"
 }
 
 ### RECIPE SHOW
@@ -17,8 +29,41 @@ PATCH http://localhost:3000/recipes/1.json
 Content-Type: application/json
 
 {
-
+"name": "Test", 
+"information": "Test", 
+"ingredients": "Test", 
+"instructions": "Test",
+"notes": "Test", 
+"preptime": 5, 
+"cooktime": 7, 
+"category": "Test",
+"method": "Test", 
+"cuisine": "Test", 
+"nutrition": "Test", 
+"facts": "Test", 
+"keywords": "Test"
 }
 
 ### RECIPE DESTROY
 DELETE http://localhost:3000/recipes/1.json
+
+### Users create (signup)
+POST http://localhost:3000/users.json
+Authorization: Bearer
+Content-Type: application/json
+
+{
+  "name": "Name",
+  "email": "test@test.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+
+### Sessions create (login)
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "password"
+}
